@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Pham Assignment 1</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><h2 class="logo">John Pham</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="personal.html">Personal information</a></li>
+                    <li><a href="interest.html">Interest In IT</a></li>
+                    <li><a href="ideal.html">Ideal Job</a></li>
+                    <li><a href="profile.html">Personal Profile</a></li>
+                    <li><a href="project.html">Project idea</a></li>
+                    <li><a href="bibliography.html">Bibliography</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>John Son Pham</h1>
+            <h2> Intro To Information - Assignment 1 </h2>
+
+            <div class="und-links" id="undLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="personal.html">Personal Information</a></li>
+                    <li><a href="interest.html">Interest In IT</a></li>
+                    <li><a href="ideal.html">Ideal Job</a></li>
+                    <li><a href="profile.html">Personal Profile</a></li>
+                    <li><a href="project.html">Project Idea</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="course">
+        <h1>Fun Facts</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Computers</h3>
+                <p>I love building computers. I have built approximately 7 computers for friends and family</p>
+            </div>
+            <div class="course-col">
+                <h3>Car</h3>
+                <p>I recently got my red p's driver liscense on the 17th of January and I drive a BMW Series 5 model 2011
+                  (i have managed to scratched   all the rims T_T)
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Food</h3>
+                <p>I used to be able to eat a whole fmaily box from Mcdonalds in one sitting. Four burgers, four small fries and 4 small drink</p>
+            </div>
+        </div>
+    </section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

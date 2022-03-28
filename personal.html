@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal profile</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="personal">
+        <nav>
+            <a href="index.html"><h2 class="logo">John Pham</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="personal.html">Personal information</a></li>
+                    <li><a href="interest.html">Interest In IT</a></li>
+                    <li><a href="ideal.html">Ideal Job</a></li>
+                    <li><a href="profile.html">Personal Profile</a></li>
+                    <li><a href="project.html">Project idea</a></li>
+                    <li><a href="bibliography.html">Bibliography</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="pop-head">
+              <h3 class="pop-head">Personal Information </h3>
+        </div>
+
+    </section>
+    <section class="About">
+        <div class="main">
+          <img src="images\me.jpg">
+          <div class="about-text">
+            <h1>My Personal Information</h1>
+              <p>My name is John Pham and I am a student at RMIT city campus. My Student number is S3943440 and my student email is S3943440@student.rmit.edu.au. I was born in Melbourne, Australia with my father arriving in Australia during the Vietnam war when he was 7, while my mother arrived in Australia to live a better lifestyle and make money to bring back to her family. I Completed year 12 VCE in 2021 at St Albans Secondary College with the subjects English, further, VET Information Technology and physics. An interesting fact is I have been working at Mcdonald's since September 2019 and have been a manager since November 2021. During my spare time, I enjoy building computers, spending time with my friends and eating lots of delicious foods. My favourite cuisine is Japanese, mainly gyoza and ramen.</p>
+            </div>
+        </div>
+    </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

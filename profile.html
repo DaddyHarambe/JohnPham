@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Profile</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="information">
+        <nav>
+            <a href="index.html"><h2 class="logo">John Pham</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="personal.html">Personal information</a></li>
+                    <li><a href="interest.html">Interest In IT</a></li>
+                    <li><a href="ideal.html">Ideal Job</a></li>
+                    <li><a href="profile.html">Personal Profile</a></li>
+                    <li><a href="project.html">Project idea</a></li>
+                    <li><a href="bibliography.html">Bibliography</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="pop-head">
+              <h3 class="pop-head">Personal Profile</h3>
+        </div>
+
+    </section>
+
+
+
+    <section class="About">
+        <div class="main">
+          <div class="about-text">
+            <h1>My Personal profile</h1>
+              <p>
+                These test results are not solely describing a person however, these can provide an insight into what type of person you are. These tests are created after multiple types of research and test to get these outcomes. They may provide an employer with a deeper understanding of who you are, although are not completely reliable enough to be dependent on. Although should only be utilised as a tool to gain further information on a candidate and not immediately write them off.
+              </p>
+              <img src="images\entertainer.png">
+              <p>
+                With the result of being an ‘entertainer’ and mainly an agreeable person. I hope to be the support of the team. When the team is quiet, I could lead the conversation and push the team to success. I will offer as much assistance as I can to help my team while doing my part of the job. I hopefully can be the person who will brighten up the group when struggling with stress or any negative emotions. expertly guiding my team and myself to finish all the tasks and meet the deadlines. Additionally, with a tactile learning style, I can contribute to the team by being a hands-on person if required.
+              </p>
+              <img src="images\planner.png">
+              <p>
+                When it comes to forming a team my personality trait enables me to be flexible and join most groups, as my personality type ensures to reinforce social cohesion within the group. I hold great people skills while continually wanting to increase the experience of the group and the task at hand through my original ideas and thoughts without having to hold back. Although, this may also be an issue as I may become easily distracted or bored if the task at hand becomes mundane. One of my definitive traits involves going with the flow. This causes me to not have a detailed plan for the future as I tackle tasks as it comes to me. It may be wise while forming a team to have someone who can reliantly plan the team’s future, tasks and success efficiently and effectively and possibly also lead the team.
+              </p>
+              <img src="images\personality.png">
+            </div>
+        </div>
+    </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
